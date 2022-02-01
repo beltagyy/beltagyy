@@ -11,4 +11,4 @@ Hi there, I'm MohamedElBeltagy 👋
 
 - You can check my personal notes @ : https://mbeltagy.notion.site/Beltagy-s-Notes-9a555865653747d4acd5363636a7e8c7
 
-[MohamedElBeltagy]: https://mbeltagy.notion.site/Beltagy-s-Notes-9a555865653747d4acd5363636a7e8c7
+[MohamedElBeltagy]: https://github.com/beltagyy
