@@ -1,16 +1,14 @@
-### Hi there 👋
+Hi there, I'm MohamedElBeltagy 👋
 
-<!--
-**beltagyy/beltagyy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+![16 Network chat twitter , facebook emoji gifs free download – Free Chinese Font Download](https://user-images.githubusercontent.com/25300381/151968382-ebb2c859-ac23-452c-976b-ccbdcbf3d15e.gif)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m intrested in the field of Virtualization, Containerization and Cloud Computing.
+- 🌱 I’m currently learning DevOps & WebDev.
+- 👯 I’m looking to collaborate on DevOps & WebDev projects.
+- 💬 Ask me about Virtualization.
+- 📫 You can reach me on: mohamedbeltagyy@gmail.com // mohamed.elbeltagy@ieee.org
+
+- You can check my personal notes @ : https://mbeltagy.notion.site/Beltagy-s-Notes-9a555865653747d4acd5363636a7e8c7
+
+[MohamedElBeltagy]: https://mbeltagy.notion.site/Beltagy-s-Notes-9a555865653747d4acd5363636a7e8c7
