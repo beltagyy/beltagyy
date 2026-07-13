@@ -127,9 +127,9 @@ Cloud:
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=beltagyy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=00f5ff&text_color=c9d1d9&count_private=true&include_all_commits=true)
+![Beltagy's GitHub stats](https://github-readme-stats.vercel.app/api?username=beltagyy&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=beltagyy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=c9d1d9&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=beltagyy&layout=compact&theme=radical&hide_border=true&langs_count=8)
 
 </div>
 
@@ -139,7 +139,7 @@ Cloud:
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=beltagyy&theme=tokyonight&no-frame=true&column=7&margin-w=10)
+![Trophies](https://github-profile-trophy.vercel.app/?username=beltagyy&theme=radical&no-frame=true&column=7&margin-w=10)
 
 </div>
 
@@ -149,7 +149,7 @@ Cloud:
 
 <div align="center">
 
-![Streak](https://streak-stats.demolab.com?user=beltagyy&theme=tokyonight&hide_border=true&background=0d1117&ring=00f5ff&fire=00f5ff&currStreakLabel=00f5ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555)
+![Streak](https://streak-stats.demolab.com?user=beltagyy&theme=radical&hide_border=true)
 
 </div>
 
@@ -173,7 +173,7 @@ $ cat focus.txt
 
 <div align="center">
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beltagyy&repo=kubesentinel&theme=tokyonight&bg_color=0d1117&title_color=00f5ff&icon_color=00f5ff&text_color=c9d1d9)](https://github.com/beltagyy/kubesentinel)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=beltagyy&repo=kubesentinel&theme=radical)](https://github.com/beltagyy/kubesentinel)
 
 </div>
 
@@ -193,7 +193,7 @@ $ cat focus.txt
 
 <div align="center">
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
 
@@ -209,6 +209,6 @@ $ cat focus.txt
 
 ---
 
-![Visitors](https://komarev.com/ghpvc/?username=beltagyy&color=00f5ff&style=for-the-badge&label=Profile+Views)
+![Visitors](https://komarev.com/ghpvc/?username=beltagyy&color=blueviolet&style=for-the-badge&label=Profile+Views)
 
 </div>
