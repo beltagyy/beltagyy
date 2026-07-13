@@ -16,50 +16,56 @@
 
 ## 🧑‍💻 About Me
 
-<div align="center">
-
+```python
+class MohamedBeltagy:
+    def __init__(self):
+        self.name = "Mohamed Beltagy"
+        self.role = "Cloud Security Engineer"
+        self.location = "Egypt 🇪🇬"
+        self.email = "mohamedbeltagyy@gmail.com"
+        
+        self.expertise = {
+            "security": ["Container Security", "RBAC", "Secret Management", "Pen Testing"],
+            "devops": ["CI/CD Pipelines", "GitOps", "Infrastructure Automation"],
+            "cloud": ["AWS", "GCP", "Azure", "Multi-Cloud Architecture"]
+        }
+        
+        self.currently = {
+            "building": "Secure K8s clusters & DevSecOps pipelines",
+            "learning": "eBPF runtime security & supply chain integrity",
+            "contributing": "Open-source security tools"
+        }
+        
+    def connect(self):
+        return "Let's build something secure together! 🚀"
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│  👋 Hi, I'm Mohamed Beltagy                                      │
-│  🎯 Cloud Security Engineer from Egypt 🇪🇬                       │
-│  🔐 Securing cloud infrastructure, one commit at a time         │
-│                                                                 │
-│  💡 "Security is not a product, but a process."                 │
-│                                                                 │
-│  📍 Currently: Building secure K8s clusters & contributing     │
-│     to open-source security tools                               │
-│                                                                 │
-│  🌱 Learning: eBPF-based runtime security & supply chain       │
-│     integrity verification                                      │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-</div>
 
 ---
 
 ## 🎯 What I Do
 
-<div align="center">
+```yaml
+Security:
+  - Container & Kubernetes Security
+  - Penetration Testing & Vulnerability Assessment
+  - RBAC & Access Control Policies
+  - Secret Management & Rotation
+  - Security Audits & Compliance
 
-```
-   ╔═══════════════════════════════════════════════════════════════╗
-   ║                                                               ║
-   ║   🔒 SECURITY          ⚙️ DEVOPS          ☁️  CLOUD          ║
-   ║   ─────────          ─────────          ─────────           ║
-   ║   • Penetration      • CI/CD            • AWS/GCP/Azure      ║
-   ║     Testing            Pipelines         Architecture       ║
-   ║   • Container        • IaC with        • Cost Optimization  ║
-   ║     Security           Terraform        • High Availability ║
-   ║   • RBAC &           • Kubernetes      • Disaster Recovery  ║
-   ║     Access Control     Management                             ║
-   ║   • Secret           • GitOps          • Performance         ║
-   ║     Management         Workflows        Tuning              ║
-   ║                                                               ║
-   ╚═══════════════════════════════════════════════════════════════╝
-```
+DevOps:
+  - CI/CD Pipeline Design & Implementation
+  - Infrastructure as Code (Terraform, Ansible)
+  - GitOps Workflows (ArgoCD, Flux)
+  - Automated Testing & Deployment
+  - Incident Response & Recovery
 
-</div>
+Cloud:
+  - AWS / GCP / Azure Architecture
+  - Cost Optimization & FinOps
+  - High Availability & Disaster Recovery
+  - Performance Tuning & Scaling
+  - Multi-Cloud & Hybrid Strategies
+```
 
 ---
 
@@ -150,21 +156,15 @@
 
 ## 🎯 Current Focus
 
-<div align="center">
+```bash
+$ cat focus.txt
 
+→ 🔐 Hardening Kubernetes clusters with CIS benchmarks
+→ 🏗️  Building secure CI/CD pipelines with DevSecOps practices
+→ 📦 Contributing to open-source security tools
+→ 🧪 Exploring cloud-native security patterns
+→ 🌐 Implementing Zero Trust architecture
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   🔐 Hardening Kubernetes clusters with CIS benchmarks          │
-│   🏗️  Building secure CI/CD pipelines with DevSecOps practices  │
-│   📦 Contributing to open-source security tools                 │
-│   🧪 Exploring cloud-native security patterns                   │
-│   🌐 Implementing Zero Trust architecture                       │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-</div>
 
 ---
 
