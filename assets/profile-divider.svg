@@ -1,16 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="810" height="20" viewBox="0 0 810 20">
   <style>
-    .signal { animation: travel 1.6s ease-out both; }
-    @keyframes travel {
-      from { transform: translateX(-145px); opacity: 0; }
-      22% { opacity: 1; }
-      to { transform: translateX(0); opacity: 1; }
+    .signal { animation: sweep 2.4s ease-in-out both; }
+    @keyframes sweep {
+      from { transform: translateX(-70px); opacity: 0; }
+      18%, 78% { opacity: 1; }
+      to { transform: translateX(810px); opacity: 0; }
     }
-    @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .signal { animation: none; opacity: 0; } }
   </style>
-  <path d="M1 10H809" stroke="#7d8590" stroke-opacity=".4"/>
-  <g class="signal" fill="#2f81f7">
-    <rect x="1" y="9" width="136" height="2" rx="1"/>
-    <circle cx="138" cy="10" r="3"/>
+  <defs>
+    <linearGradient id="trail">
+      <stop stop-color="#438cf1" stop-opacity="0"/>
+      <stop offset="1" stop-color="#438cf1"/>
+    </linearGradient>
+    <clipPath id="track"><rect width="810" height="20"/></clipPath>
+  </defs>
+  <path d="M2 10H808" stroke="#7d8590" stroke-opacity=".45"/>
+  <g fill="#438cf1">
+    <circle cx="3" cy="10" r="2.5"/>
+    <circle cx="405" cy="10" r="2.5"/>
+    <circle cx="807" cy="10" r="2.5"/>
+  </g>
+  <g clip-path="url(#track)">
+    <g class="signal">
+      <path d="M0 10H65" stroke="url(#trail)" stroke-width="2"/>
+      <circle cx="66" cy="10" r="3" fill="#438cf1"/>
+    </g>
   </g>
 </svg>
