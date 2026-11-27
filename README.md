@@ -10,7 +10,9 @@ I build and secure cloud platforms and AI systems. I work on Kubernetes hardenin
 
 [ResearchGate](https://www.researchgate.net/profile/Mohamed-Elbeltagy-4) · [DEV Community](https://dev.to/le_beltagy) · [Portfolio](https://beltagyy.github.io/) · [LinkedIn](https://www.linkedin.com/in/beltagyy/) · [Email](mailto:mohamedbeltagyy@gmail.com)
 
-<img src="./assets/profile-divider.svg" alt="" width="810" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/beltagyy/beltagyy/1cdbc86bfc43e1a5f31f31cda2b666f64d38828b/assets/profile-divider.svg" alt="Lavender rabbit nibbling a carrot" width="640" />
+</p>
 
 [Research](#research-and-publications) · [Engineering](#engineering-work) · [Projects](#selected-projects) · [Writing](#writing-on-dev)
 
