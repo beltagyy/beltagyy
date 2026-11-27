@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="" width="810" />
+</p>
+
 # Mohamed ElBeltagy
 
 **Cloud and AI security engineer · Published security researcher**
@@ -6,7 +10,9 @@ I build and secure cloud platforms and AI systems. I work on Kubernetes hardenin
 
 [ResearchGate](https://www.researchgate.net/profile/Mohamed-Elbeltagy-4) · [DEV Community](https://dev.to/le_beltagy) · [Portfolio](https://beltagyy.github.io/) · [LinkedIn](https://www.linkedin.com/in/beltagyy/) · [Email](mailto:mohamedbeltagyy@gmail.com)
 
-<img src="./assets/profile-divider.svg" alt="" width="810" height="20" />
+<img src="./assets/profile-divider.svg" alt="" width="810" />
+
+[Research](#research-and-publications) · [Engineering](#engineering-work) · [Projects](#selected-projects) · [Writing](#writing-on-dev)
 
 ## Research and publications
 
