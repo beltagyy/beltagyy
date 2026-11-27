@@ -1,24 +1,26 @@
 # Mohamed ElBeltagy
 
-**Cloud security engineer, platform builder, and published researcher**
+**AI infrastructure, high-performance computing, and cloud security**
 
-I build and secure cloud platforms. Most of my work comes down to making deployments repeatable, access easier to audit, and incidents easier to investigate. I’ve worked across AWS, Azure, and GCP, including as a cloud engineer at AWS in Dublin.
+At Baker Hughes, I work on the GPU infrastructure that supports high-performance computing (HPC) and AI workloads. My background is in cloud and platform engineering across AWS, Azure, and GCP, including time as a cloud engineer at AWS in Dublin.
 
 [Portfolio](https://beltagyy.github.io/) · [DEV blog](https://dev.to/le_beltagy) · [LinkedIn](https://www.linkedin.com/in/beltagyy/) · [Email](mailto:mohamedbeltagyy@gmail.com)
 
 ## What I work on
 
-- **Cloud security.** I work on Kubernetes hardening, identity and access, secrets management, and software supply chain controls. I use policy as code to catch misconfigurations before deployment.
-- **Platform engineering.** I build cloud infrastructure with Terraform and Ansible, deliver changes through CI/CD and GitOps with Argo CD, and monitor services with Prometheus and Grafana.
-- **Backend and automation.** I use Python and Go to build APIs, internal tools, and automations that take recurring work off engineers’ plates.
+- **GPU infrastructure and HPC.** I work with NVIDIA DGX systems and use NVIDIA Run:ai for GPU workload scheduling and resource allocation.
+- **Kubernetes and cloud security.** I work on cluster hardening, identity and access, and software supply chain controls. I use Terraform, Ansible, and Argo CD to make infrastructure changes repeatable and reviewable.
+- **Automation and reliability.** I build Python and Go tooling for recurring operational work and use Prometheus and Grafana to understand how systems behave in production.
+
+My earlier work includes building compliance checks into CI/CD for AWS, Azure, and GCP, and automating AWS infrastructure for SaaS launches in the UAE and Canada. [More on my portfolio](https://beltagyy.github.io/)
 
 ## Selected projects
 
-| Project | What I built |
-| --- | --- |
-| [Talos Kubernetes lab](https://github.com/beltagyy/gitops) | A bare-metal Kubernetes platform managed with GitOps, with Cilium networking, Argo CD, distributed storage, and monitoring. |
-| [VehicleMetrics](https://github.com/beltagyy/vehicle-metrics) | An end-to-end prototype for ingesting and visualizing autonomous vehicle telemetry in real time, with FastAPI, React, and Kubernetes. |
-| [Job Digest](https://github.com/beltagyy/job-digest) | A Python service that scores job listings against a profile and sends a focused email digest. There’s also a [Next.js demo](https://github.com/beltagyy/job-digest-demo). |
+- **[AI Forensics](https://github.com/beltagyy/ai-forensics-poc)** · A Python proof of concept for investigating security failures in multi-agent AI systems. It records agent activity and traces a compromised tool response back to its source.
+- **Core (XORLabs)** · My work at XORLabs includes the Core project.
+- **[Talos Kubernetes lab](https://github.com/beltagyy/gitops)** · My bare-metal Kubernetes platform, managed with GitOps. It brings together Talos Linux, Cilium and eBPF networking, Argo CD, distributed storage, and monitoring.
+- **[VehicleMetrics](https://github.com/beltagyy/vehicle-metrics)** · An end-to-end prototype for streaming and visualizing autonomous vehicle sensor data using FastAPI, React, and Kubernetes.
+- **[Job Digest](https://github.com/beltagyy/job-digest)** · A Python service that matches job listings to a profile and emails a curated digest, with a separate [Next.js demo](https://github.com/beltagyy/job-digest-demo).
 
 ## Research and publications
 
@@ -37,4 +39,4 @@ I write about what I learn while building and running systems, including what br
 - [Learning Go by working on Kubernetes RBAC in k9s](https://dev.to/le_beltagy/i-learned-go-in-3-weeks-yesterday-my-code-merged-into-k9s-2dg4)
 - [Reorganizing 45 Kubernetes manifests for GitOps](https://dev.to/le_beltagy/how-i-reorganized-45-kubernetes-manifests-and-saved-hours-of-development-time-1m80)
 
-I’m always happy to talk about Kubernetes, cloud security, or open-source tooling. [Get in touch](mailto:mohamedbeltagyy@gmail.com).
+I’m always happy to talk about GPU infrastructure, AI security, Kubernetes, or open-source tooling. [Get in touch](mailto:mohamedbeltagyy@gmail.com).
