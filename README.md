@@ -18,6 +18,8 @@ I build and secure cloud platforms and AI systems. I work on Kubernetes hardenin
 
 ## Research and publications
 
+I’m currently a PhD candidate researching the security and forensics of AI systems, with a focus on large language models (LLMs).
+
 I earned my M.Sc. in Networks Engineering from the German University in Cairo. In my published work, I studied how cellular automata, chaotic systems, and substitution boxes can be used to encrypt images with low computational overhead.
 
 - [RGB Image Encryption through Cellular Automata, S-Box and the Lorenz System](https://doi.org/10.3390/sym14030443) · *Symmetry*, 2022
