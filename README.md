@@ -1,74 +1,40 @@
-<div align="center">
+# Mohamed ElBeltagy
 
-# Mohamed Beltagy
+**Cloud security engineer, platform builder, and published researcher**
 
-### Cloud Security Engineer · DevOps Architect · Backend & Cloud-Native Builder
+I build and secure cloud platforms. Most of my work comes down to making deployments repeatable, access easier to audit, and incidents easier to investigate. I’ve worked across AWS, Azure, and GCP, including as a cloud engineer at AWS in Dublin.
 
-I build secure cloud platforms, automate delivery, and explore better ways to protect modern infrastructure.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/beltagyy/)
-[![Email](https://img.shields.io/badge/Email-Say_Hello-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamedbeltagyy@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-beltagyy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/beltagyy)
-
-</div>
-
-## About me
-
-I work where **cloud engineering, backend automation, and security** meet. My focus is designing infrastructure and delivery systems that are secure by default, observable in production, and straightforward for teams to operate.
-
-I enjoy turning security controls into repeatable engineering workflows: policy as code, hardened Kubernetes platforms, supply-chain checks, GitOps delivery, and useful automation in Python and Go.
-
-> **My engineering bias:** automate the guardrails, keep the platform observable, and make the secure path the easiest path.
+[Portfolio](https://beltagyy.github.io/) · [DEV blog](https://dev.to/le_beltagy) · [LinkedIn](https://www.linkedin.com/in/beltagyy/) · [Email](mailto:mohamedbeltagyy@gmail.com)
 
 ## What I work on
 
-| Area | Focus |
-| --- | --- |
-| **Cloud & platforms** | AWS, Azure, GCP, Kubernetes, Docker, Helm, Talos Linux |
-| **Security engineering** | Container security, IAM/RBAC, secrets, vulnerability management, policy as code |
-| **Delivery & infrastructure** | Terraform, Ansible, GitHub Actions, GitOps, Argo CD, CI/CD architecture |
-| **Backend & automation** | Python, Go, APIs, event-driven workflows, operational tooling |
-| **Reliability** | Prometheus, Grafana, logging, incident response, resilience and cost awareness |
-
-## Research & experiments
-
-My current engineering lab explores practical questions around cloud-native defense and platform reliability:
-
-- **Kubernetes hardening** — testing secure-by-default cluster patterns, RBAC boundaries, admission controls, and CIS-aligned configurations.
-- **Software supply-chain security** — exploring image provenance, dependency and IaC scanning, SBOMs, signing, and policy enforcement in CI/CD.
-- **AI-assisted cloud security** — experimenting with agents that turn cluster signals and misconfigurations into useful, explainable remediation guidance.
-- **GitOps safety** — investigating how policy gates, drift detection, and progressive delivery can reduce operational risk without slowing teams down.
-- **Runtime visibility** — learning how eBPF and cloud-native telemetry can improve threat detection and incident investigation.
-
-These are active experiments and evolving notes—not finished research claims. I share useful implementations as they become ready.
+- **Cloud security.** I work on Kubernetes hardening, identity and access, secrets management, and software supply chain controls. I use policy as code to catch misconfigurations before deployment.
+- **Platform engineering.** I build cloud infrastructure with Terraform and Ansible, deliver changes through CI/CD and GitOps with Argo CD, and monitor services with Prometheus and Grafana.
+- **Backend and automation.** I use Python and Go to build APIs, internal tools, and automations that take recurring work off engineers’ plates.
 
 ## Selected projects
 
-### [gitops](https://github.com/beltagyy/gitops)
-A hands-on platform lab for deploying and operating a **Talos Kubernetes cluster** with infrastructure as code, networking, storage, observability, and GitOps workflows.
+| Project | What I built |
+| --- | --- |
+| [Talos Kubernetes lab](https://github.com/beltagyy/gitops) | A bare-metal Kubernetes platform managed with GitOps, with Cilium networking, Argo CD, distributed storage, and monitoring. |
+| [VehicleMetrics](https://github.com/beltagyy/vehicle-metrics) | An end-to-end prototype for ingesting and visualizing autonomous vehicle telemetry in real time, with FastAPI, React, and Kubernetes. |
+| [Job Digest](https://github.com/beltagyy/job-digest) | A Python service that scores job listings against a profile and sends a focused email digest. There’s also a [Next.js demo](https://github.com/beltagyy/job-digest-demo). |
 
-### [job-digest](https://github.com/beltagyy/job-digest)
-A **Python automation service** that turns job discovery into a focused personal digest—an experiment in practical workflow automation and useful signal extraction.
+## Research and publications
 
-### [job-digest-demo](https://github.com/beltagyy/job-digest-demo)
-A **TypeScript product demo** for an AI-assisted job-search experience, connecting backend automation with a clear user-facing workflow.
+I earned my M.Sc. in Networks Engineering at the German University in Cairo. My published research focuses on lightweight image encryption, including how cellular automata, chaotic systems, and substitution boxes can be used to protect digital images.
 
-### [kubesentinel](https://github.com/beltagyy/kubesentinel)
-My fork and experimentation space for an **AI-powered Kubernetes security agent**, focused on understanding cluster risk and actionable remediation.
+- [RGB Image Encryption through Cellular Automata, S-Box and the Lorenz System](https://doi.org/10.3390/sym14030443), *Symmetry*, 2022.
+- [Image Encryption Through Rössler System, PRNG S-Box and Recamán’s Sequence](https://dblp.org/rec/conf/ccwc/ElBeltagyAEMH22), IEEE CCWC, 2022.
+- [Lightweight Image Encryption: Cellular Automata and the Lorenz System](https://doi.org/10.1109/ICM52667.2021.9664961), IEEE ICM, 2021.
 
-## Toolbox
+## Writing on DEV
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+I write about what I learn while building and running systems, including what broke and how I fixed it.
 
-## Open to collaboration
+- [Replacing kube-proxy with eBPF and debugging a monitoring outage](https://dev.to/le_beltagy/i-replaced-kube-proxy-with-ebpf-in-production-and-why-my-monitoring-went-blind-for-6-hours-1n18)
+- [Building a bare-metal Kubernetes lab with Talos on a budget](https://dev.to/le_beltagy/i-run-bare-metal-kubernetes-on-200-of-scrap-hardware-and-why-i-burned-3-sd-cards-learning-34cb)
+- [Learning Go by working on Kubernetes RBAC in k9s](https://dev.to/le_beltagy/i-learned-go-in-3-weeks-yesterday-my-code-merged-into-k9s-2dg4)
+- [Reorganizing 45 Kubernetes manifests for GitOps](https://dev.to/le_beltagy/how-i-reorganized-45-kubernetes-manifests-and-saved-hours-of-development-time-1m80)
 
-I am interested in cloud security, platform engineering, Kubernetes, DevSecOps, and open-source security tooling. If you are working on something in that space, [connect with me on LinkedIn](https://www.linkedin.com/in/beltagyy/) or [send me an email](mailto:mohamedbeltagyy@gmail.com).
+I’m always happy to talk about Kubernetes, cloud security, or open-source tooling. [Get in touch](mailto:mohamedbeltagyy@gmail.com).
