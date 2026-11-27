@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="810" height="20" viewBox="0 0 810 20">
+  <style>
+    .signal { animation: travel 1.6s ease-out both; }
+    @keyframes travel {
+      from { transform: translateX(-145px); opacity: 0; }
+      22% { opacity: 1; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
+  </style>
+  <path d="M1 10H809" stroke="#7d8590" stroke-opacity=".4"/>
+  <g class="signal" fill="#2f81f7">
+    <rect x="1" y="9" width="136" height="2" rx="1"/>
+    <circle cx="138" cy="10" r="3"/>
+  </g>
+</svg>
