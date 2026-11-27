@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="810" height="104" viewBox="0 0 810 104">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="154" viewBox="189 0 432 104">
   <title>A lavender rabbit nibbling a carrot</title>
   <style>
     .rabbit-head {
@@ -42,8 +42,8 @@
     </linearGradient>
   </defs>
   <g fill="none" stroke-width="1.4">
-    <path d="M12 72h318" stroke="url(#left-line)"/>
-    <path d="M488 72h310" stroke="url(#right-line)"/>
+    <path d="M200 72h130" stroke="url(#left-line)"/>
+    <path d="M488 72h122" stroke="url(#right-line)"/>
   </g>
   <g fill="#74a5dc">
     <circle cx="330" cy="72" r="2.5"/>
