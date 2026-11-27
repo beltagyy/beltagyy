@@ -17,7 +17,7 @@ My earlier work includes building compliance checks into CI/CD for AWS, Azure, a
 ## Selected projects
 
 - **[AI Forensics](https://github.com/beltagyy/ai-forensics-poc)** · A Python proof of concept for investigating security failures in multi-agent AI systems. It records agent activity and traces a compromised tool response back to its source.
-- **Core (XORLabs)** · My work at XORLabs includes the Core project.
+- **Core (XORLabs)** · I also work on Core from XORLabs.
 - **[Talos Kubernetes lab](https://github.com/beltagyy/gitops)** · My bare-metal Kubernetes platform, managed with GitOps. It brings together Talos Linux, Cilium and eBPF networking, Argo CD, distributed storage, and monitoring.
 - **[VehicleMetrics](https://github.com/beltagyy/vehicle-metrics)** · An end-to-end prototype for streaming and visualizing autonomous vehicle sensor data using FastAPI, React, and Kubernetes.
 - **[Job Digest](https://github.com/beltagyy/job-digest)** · A Python service that matches job listings to a profile and emails a curated digest, with a separate [Next.js demo](https://github.com/beltagyy/job-digest-demo).
