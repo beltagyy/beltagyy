@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="810" height="164" viewBox="0 0 810 164">
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="objectBoundingBox">
+      <stop stop-color="#0b1627"/>
+      <stop offset="1" stop-color="#101f35"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#327fc4" stop-opacity=".47"/>
+      <stop offset="1" stop-color="#327fc4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="5" r="1" fill="#7fb1e3" opacity=".24"/>
+    </pattern>
+    <clipPath id="frame"><rect width="810" height="164" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .pulse {
+      stroke-dasharray: 12 250;
+      stroke-dashoffset: 12;
+      animation: travel 2.3s ease-in-out 2;
+    }
+    .pulse:nth-child(even) { animation-delay: .15s; }
+    .core { transform-origin: 405px 82px; animation: breathe 2.3s ease-in-out 2; }
+    @keyframes travel { to { stroke-dashoffset: -102; } }
+    @keyframes breathe { 50% { opacity: .48; transform: scale(1.14); } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .core { animation: none; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="810" height="164" fill="url(#background)"/>
+    <rect width="810" height="164" fill="url(#grid)"/>
+    <ellipse cx="405" cy="82" rx="245" ry="105" fill="url(#halo)"/>
+    <defs>
+      <path id="left-top" pathLength="100" d="M76 38h114l30 30h142"/>
+      <path id="left-middle" pathLength="100" d="M120 82h242"/>
+      <path id="left-bottom" pathLength="100" d="M76 126h114l30-30h142"/>
+      <path id="right-top" pathLength="100" d="M734 38H620l-30 30H448"/>
+      <path id="right-middle" pathLength="100" d="M690 82H448"/>
+      <path id="right-bottom" pathLength="100" d="M734 126H620l-30-30H448"/>
+    </defs>
+    <g fill="none" stroke="#527aa3" stroke-width="1.25">
+      <use href="#left-top"/><use href="#left-middle"/><use href="#left-bottom"/>
+      <use href="#right-top"/><use href="#right-middle"/><use href="#right-bottom"/>
+    </g>
+    <g fill="#101f35" stroke="#69a5d7" stroke-width="1.25">
+      <circle cx="76" cy="38" r="4"/><circle cx="120" cy="82" r="4"/><circle cx="76" cy="126" r="4"/>
+      <circle cx="734" cy="38" r="4"/><circle cx="690" cy="82" r="4"/><circle cx="734" cy="126" r="4"/>
+    </g>
+    <g fill="none" stroke="#9df6e1" stroke-width="2.5">
+      <use class="pulse" href="#left-top"/><use class="pulse" href="#left-middle"/><use class="pulse" href="#left-bottom"/>
+      <use class="pulse" href="#right-top"/><use class="pulse" href="#right-middle"/><use class="pulse" href="#right-bottom"/>
+    </g>
+    <rect class="core" x="352" y="37" width="106" height="90" rx="22" fill="none" stroke="#60b2ff" opacity=".65"/>
+    <rect x="362" y="47" width="86" height="70" rx="15" fill="#142944" stroke="#83c8ff" stroke-width="1.5"/>
+    <path d="M405 60l17 7v12c0 11-7 18-17 23-10-5-17-12-17-23V67z" fill="#183a52" stroke="#9df6e1" stroke-width="2"/>
+    <path d="m398 81 5 5 9-10" fill="none" stroke="#9df6e1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x=".5" y=".5" width="809" height="163" rx="15.5" fill="none" stroke="#365475"/>
+</svg>
